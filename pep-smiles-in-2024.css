@@ -570,16 +570,16 @@ star:after {
 }
 
 #fixed-tabs .map {
-  background-color: #4CBB17;
+  background-color: #D77E52;
 }
 
 #fixed-tabs .call {
-  background-color: #00538E;
+  background-color: #353C3F;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #4CBB17;
+  background-color: #D77E52;
 }
 
 #fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {
@@ -613,12 +613,12 @@ body {
   background: #fff;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Barlow", sans-serif;
+  font: 400 18px/26px "Jost", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Barlow", sans-serif;
+  font: 400 18px/1.6 "Jost", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -626,22 +626,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #00538E;
+  color: #353C3F;
 }
 
 a:hover {
-  color: #00538E;
+  color: #353C3F;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Barlow", sans-serif;
+  font-family: "Jost", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #00538E;
-  font: 400 50px/1.3 "september", sans-serif;
+  color: #353C3F;
+  font: 400 50px/1.3 "Merriweather", serif;
   letter-spacing: 1.1px;
 }
 
@@ -651,12 +651,12 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "september", sans-serif;
-  color: #00538E;
+  font: normal 142px/1.1 "Merriweather", serif;
+  color: #353C3F;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "september", sans-serif;
+  font-family: "Merriweather", serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
@@ -668,8 +668,8 @@ h2 span {
 }
 
 h3, .h3 {
-  font: 700 30px/1 "september", sans-serif;
-  color: #00538E;
+  font: 700 30px/1 "Merriweather", serif;
+  color: #353C3F;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -713,7 +713,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Barlow", sans-serif, sans-serif;
+  font: 700 15px/1 "Jost", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -741,11 +741,11 @@ main ul li:before {
 }
 
 .play:hover {
-  color: #00538E;
+  color: #353C3F;
 }
 
 .play:hover i {
-  background-color: #00538E;
+  background-color: #353C3F;
   color: #fff;
 }
 
@@ -753,7 +753,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #4CBB17;
+  background-color: #D77E52;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -772,7 +772,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #3a8e11;
+  background-color: #c8612e;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -791,9 +791,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #4CBB17;
+  background-color: #D77E52;
   min-width: 250px;
-  font: 700 13px/1.1 "Barlow", sans-serif;
+  font: 700 13px/1.1 "Jost", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -813,6 +813,7 @@ header {
   padding: 15px;
   z-index: 100;
   background-color: #fff;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
 }
 header #nav a i {
   font-size: 20px;
@@ -822,7 +823,7 @@ header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #4CBB17;
+  background-color: #D77E52;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -833,13 +834,13 @@ header #nav a.btn {
   border-radius: 40px;
   color: #fff;
   font-size: 24px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #00538E;
+  background-color: #353C3F;
 }
 header #nav a.btn i {
-  color: #4CBB17;
+  color: #D77E52;
 }
 header #nav a.btn i:before {
   background-color: #fff;
@@ -858,9 +859,10 @@ header #nav address {
 header #nav .phone {
   color: #000;
   font-size: 32px;
+  font-weight: 600;
 }
 header #nav .phone:hover {
-  color: #4CBB17;
+  color: #D77E52;
 }
 header #nav .phy {
   font-size: 22px;
@@ -870,7 +872,7 @@ header #nav .phy {
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #4CBB17;
+  color: #D77E52;
 }
 header #nav #mobile-btns {
   width: 100%;
@@ -885,7 +887,7 @@ header #nav #mobile-btns .btn {
   padding: 10px;
   justify-content: center;
   border-radius: 0;
-  font-size: 16px;
+  font-size: 15px;
   min-width: auto;
   text-transform: uppercase;
 }
@@ -905,7 +907,7 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   width: 100%;
 }
 header #nav #mobile-btns .phone {
-  background-color: #00538E;
+  background-color: #353C3F;
   color: #fff;
   font-size: 20px;
   line-height: 1.3;
@@ -919,13 +921,13 @@ header #nav #mobile-btns .phone span {
 }
 
 .phone {
-  color: #4CBB17;
-  font: 700 30px/30px "Barlow", sans-serif;
+  color: #D77E52;
+  font: 700 30px/30px "Jost", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #00538E;
+  color: #353C3F;
 }
 .phone span {
   display: block;
@@ -1008,7 +1010,7 @@ p.big {
 
 .smile .top .big {
   color: #000;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 35px;
   font-weight: normal;
   letter-spacing: normal;
@@ -1020,7 +1022,7 @@ p.big {
 }
 
 .bg-2 {
-  background-color: #00538E;
+  background-color: #353C3F;
   padding: 10px;
 }
 
@@ -1032,7 +1034,7 @@ p.big {
   font-size: 26px;
   font-weight: 700;
   max-width: 1180px;
-  margin: 30px auto 10px;
+  margin: 70px auto 10px;
 }
 .smile .top h2 {
   color: #000;
@@ -1118,24 +1120,24 @@ p.big {
 }
 
 .smile h1 {
-  color: #00538E;
-  font: 500 90px/1 "september", sans-serif;
+  color: #047870;
+  font: 500 100px/1 "Merriweather", serif;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 45px;
 }
 .smile h1:after {
   content: "";
   width: 70px;
   position: absolute;
   height: 4px;
-  background-color: #00538E;
+  background-color: #047870;
   bottom: 0;
 }
 .smile h1 span {
-  font-family: "september", sans-serif;
+  font-family: "Merriweather", serif;
 }
 .smile article p.big {
   font-weight: normal;
@@ -1159,17 +1161,16 @@ p.big {
   flex: 0 1 815px;
 }
 .smile .content .call article p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "Barlow", sans-serif;
+  font-family: "Jost", sans-serif;
   text-align: left;
-  letter-spacing: -0.02em;
   line-height: 60px;
 }
 .smile .content .call article a {
-  color: #4CBB17;
+  color: #D77E52;
 }
 .smile .content .call article a:hover {
   color: #000;
@@ -1179,13 +1180,22 @@ p.big {
   position: relative;
 }
 .smile .content .call figure figcaption {
-  background-color: #00538E;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
   bottom: 0;
   position: absolute;
   text-transform: uppercase;
   padding: 2px 15px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.smile .content .call figure figcaption a {
+  color: #000;
+  letter-spacing: 2px;
   font-weight: 600;
-  font-size: 14px;
+}
+.smile .content .call figure figcaption a:hover {
+  color: #D77E52;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1226,7 +1236,7 @@ p.big {
   vertical-align: middle;
 }
 .smile .form input[type=checkbox] + label {
-  font-size: 15px;
+  font-size: 20px;
   color: #000;
   margin-left: 5px;
 }
@@ -1239,6 +1249,7 @@ p.big {
 }
 .smile .form .simple .btn {
   width: 100%;
+  font-size: 20px;
 }
 .smile .form ::-webkit-input-placeholder {
   color: #000;
@@ -1275,7 +1286,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #4CBB17;
+  color: #D77E52;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1293,9 +1304,10 @@ p.big {
 }
 .smile .use-it-very-bottom-text .big {
   color: #fff !important;
-  margin-bottom: 50px;
-  font-weight: 500;
-  font-family: "Barlow", sans-serif;
+  margin-bottom: 65px;
+  margin-top: 65px;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
   font-size: 40px;
   line-height: 45px;
 }
@@ -1309,13 +1321,13 @@ footer :is(input, textarea) {
 }
 .factors h2 {
   color: white;
-  font: 700 36px/1 "Barlow", sans-serif;
-  background: #00538E;
+  font: 700 31px/1 "Jost", sans-serif;
+  background: #047870;
   padding: 25px 15px;
   margin: 0;
 }
 .factors h2 span {
-  font-size: 56px;
+  font-size: 52px;
   margin: 0 10px;
 }
 .factors [class*=row] > div {
@@ -1325,10 +1337,10 @@ footer :is(input, textarea) {
   padding: 20px;
 }
 .factors [class*=row] > div:nth-of-type(odd) {
-  background: rgba(0, 83, 142, 0.05);
+  background: rgba(4, 120, 112, 0.05);
 }
 .factors [class*=row] p {
-  font: 500 22px/26px "Barlow", sans-serif;
+  font: 400 22px/26px "Jost", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -1339,7 +1351,7 @@ footer :is(input, textarea) {
   margin: auto;
 }
 .factors .icon rect, .factors .icon path {
-  fill: #4CBB17;
+  fill: #D77E52;
 }
 
 .fo-form {
@@ -1457,7 +1469,7 @@ footer {
   background: #fff;
 }
 footer h2 {
-  font: bold 45px/1.2 "Alegreya", serif;
+  font: bold 45px/1.2 "Jost", sans-serif;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1465,7 +1477,7 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #00538E;
+  background-color: #353C3F;
   position: absolute;
   height: 4px;
   width: 85px;
@@ -1473,15 +1485,19 @@ footer h2:after {
   right: 50%;
   transform: translate(50%);
 }
+footer article {
+  height: 514px;
+  justify-content: flex-start;
+}
 footer article .phy {
-  font-family: "Barlow", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   color: #000;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 footer article .phy:hover {
-  color: #4cbb17;
+  color: #D77E52;
 }
 footer article .phone {
   font-size: 41px;
@@ -1500,7 +1516,7 @@ footer .form .simple .btn {
   width: 80% !important;
 }
 footer .split {
-  justify-content: center;
+  justify-content: space-evenly;
   max-width: 95vw;
   align-items: flex-start;
   margin: auto;
@@ -1512,14 +1528,28 @@ footer .split article {
   flex: 0 1 30%;
   padding: 20px 25px 20px;
   align-items: center;
+  justify-content: flex-start;
 }
 footer .split article:last-of-type h2 {
   margin-bottom: 40px;
 }
+footer .split article > span {
+  margin-top: auto;
+  font-size: 20px;
+}
+footer .split article #hours span {
+  display: flex;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  width: 300px;
+  margin: 10px auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Barlow", sans-serif;
+  font: 400 32px/1.2 "Jost", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1528,7 +1558,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #4CBB17;
+  color: #D77E52;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1569,13 +1599,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "september", sans-serif;
+  font-family: "Merriweather", serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Barlow", sans-serif;
+  font: 400 18px/1 "Jost", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1584,7 +1614,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Jost", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1596,10 +1626,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #4CBB17;
+  color: #D77E52;
 }
 figcaption:hover p {
-  color: #4CBB17;
+  color: #D77E52;
 }
 
 .stamp {
@@ -1615,23 +1645,23 @@ figcaption:hover p {
   padding: 45px 10px;
   background-color: #fff;
   margin: auto;
-  font: 400 18px/1.4 "Barlow", sans-serif;
+  font: 400 18px/1.4 "Jost", sans-serif;
   color: #1a1a1a;
 }
 .copy a, .copy p {
-  font: 400 18px/1.4 "Barlow", sans-serif;
+  font: 400 18px/1.4 "Jost", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #4CBB17;
+  color: #D77E52;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #00538E;
+  color: #353C3F;
   text-decoration: underline;
 }
 .copy span {
@@ -1646,13 +1676,13 @@ figcaption:hover p {
   font-size: 16px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #4CBB17;
-  background-color: #4CBB17;
+  border: 1px solid #D77E52;
+  background-color: #D77E52;
   color: #fff;
   text-transform: uppercase;
 }
 .simple .btn:hover {
-  background-color: #006caa;
+  background-color: #353C3F;
   color: #fff;
 }
 .simple input, .simple select {
@@ -1674,7 +1704,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #4CBB17;
+  box-shadow: inset 0 -3px 0 #D77E52;
 }
 
 hr {
@@ -1908,6 +1938,7 @@ hr {
   }
   footer article {
     padding-top: 20px;
+    height: auto;
   }
   footer article p {
     font-size: 32px;
@@ -1940,8 +1971,17 @@ hr {
     padding: 10px;
   }
   .mobile-bg h1 {
-    font-size: 50px;
+    font-size: 56px;
     margin: 25px auto;
+  }
+  footer {
+    padding-top: 0;
+  }
+  .copy {
+    padding-top: 40px;
+  }
+  .smile .use-it-very-bottom-text .big {
+    font-size: 36px;
   }
 }
 @media (max-width: 590px) {
